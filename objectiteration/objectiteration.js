@@ -19,7 +19,7 @@ const entries = Object.entries(restaurant);
 console.log(entries);
 
 // destructive(mutating)operations
-// oush()
+// push()
 const menu = ["Burger", "Pizza", "Pasta"];
 
 menu.push("Chicken");
