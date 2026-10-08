@@ -49,6 +49,14 @@ function introduce(name, ...hobbies) {
 }
 
 introduce("John", "Coding", "F1", "Gaming");
+// Why Choose Rest Syntax in This Scenario?
+// Flexibility: Easily handles an unpredictable number of inputs.
+// Readable Code: Avoids complex logic to manually gather arguments.
+// Dynamic Applications: Supports real-world use cases like user-generated input.
 
+// Why Choose Spread Syntax in This Scenario?
+// Effortless Merging: Combines arrays or objects without complex loops.
+// Safe Updates: Copies objects before modification, ensuring immutability.
+// Maintainable Code: Simplifies code structure for better readability and upkeep.
 
 
