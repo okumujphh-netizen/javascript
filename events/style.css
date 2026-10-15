@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6fb;
+    color: #20243a;
+}
+
+header {
+    background: #24245c;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin-bottom: 8px;
+}
+
+.welcome {
+    text-align: center;
+    padding: 45px 20px;
+    background: white;
+}
+
+button {
+    background: #5757d9;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #3939a8;
+}
+
+#message {
+    color: #3939a8;
+    font-weight: bold;
+}
+
+#events-section {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+#event-search {
+    width: 100%;
+    padding: 13px;
+    margin: 10px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.event-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 20px;
+}
+
+.event-card {
+    background: white;
+    padding: 22px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px #0000000d;
+}
+
+.event-card h3 {
+    color: #3939a8;
+}
+
+.event-card p {
+    line-height: 1.5;
+}
+
+.event-card button {
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #24245c;
+    color: white;
+}

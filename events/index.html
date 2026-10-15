@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventHub | Discover Events</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>EventHub</h1>
+        <p>Discover. Connect. Experience.</p>
+    </header>
+
+    <main>
+        <section class="welcome">
+            <h2>Find Your Next Experience</h2>
+            <p>Discover events happening around you.</p>
+            <button id="explore-button">Explore Events</button>
+            <p id="message" aria-live="polite"></p>
+        </section>
+
+        <section id="events-section">
+            <h2>Upcoming Events</h2>
+
+            <input type="text" id="event-search" placeholder="Search for an event..." aria-label="Search events">
+
+            <div class="event-list">
+                <article class="event-card">
+                    <h3>Tech Conference 2026</h3>
+                    <p>Date: November 10, 2026</p>
+                    <p>Location: Nairobi</p>
+                    <button class="register-button">Register Interest</button>
+                </article>
+
+                <article class="event-card">
+                    <h3>Music Festival</h3>
+                    <p>Date: November 20, 2026</p>
+                    <p>Location: Nairobi</p>
+                    <button class="register-button">Register Interest</button>
+                </article>
+
+                <article class="event-card">
+                    <h3>Creative Design Workshop</h3>
+                    <p>Date: December 5, 2026</p>
+                    <p>Location: Nairobi</p>
+                    <button class="register-button">Register Interest</button>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 EventHub</p>
+    </footer>
+</body>
+
+</html>
