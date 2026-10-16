@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 850px;
+    margin: 30px auto;
+    padding: 0 20px;
+    background: #f4f6fb;
+    color: #22243a;
+}
+
+header {
+    padding: 20px;
+    background: #24245c;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 14px;
+    background: #5757d9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input {
+    display: block;
+    width: 95%;
+    padding: 12px;
+    margin: 10px 0 20px;
+}
+
+.event-card {
+    background: white;
+    padding: 18px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+#message {
+    font-weight: bold;
+}
