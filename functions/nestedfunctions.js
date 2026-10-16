@@ -51,7 +51,7 @@ function supermarket() {
 
     function calculateTotal() {
         console.log("Calculating total...");
-    }
+    }j
 
     function calculateDiscount() {
         console.log("Calculating discount...");
