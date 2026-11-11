@@ -22,3 +22,24 @@ function App() {
     </div>
   );
 }
+
+
+// example
+
+function App() {
+  const video = {
+    title: "Fast & Furious",
+    description: "A street racing action movie.",
+    year: 2001
+  };
+
+  return (
+    <div>
+      <h1>{video.title}</h1>
+      <p>{video.description}</p>
+      <p>Released: {video.year}</p>
+    </div>
+  );
+}
+
+export default App;
