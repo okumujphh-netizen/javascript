@@ -1,55 +1,33 @@
-// creating a counter application
+// usestate()
 
 import { useState } from "react";
 
-function App() {
-  const [count, setCount] = useState(0);
-
-  function increaseCount() {
-    setCount(count + 1);
-  }
+function Car() {
+  const [speed, setSpeed] = useState(0);
 
   return (
     <div>
-      <h1>Counter: {count}</h1>
+      <h1>Car Dashboard</h1>
+      <p>Speed: {speed} km/h</p>
 
-      <button onClick={increaseCount}>
-        Increase
+      <button onClick={() => setSpeed(speed + 10)}>
+        Accelerate
+      </button>
+
+      <button onClick={() => setSpeed(speed - 10)}>
+        Brake
       </button>
     </div>
   );
 }
 
-export default App;
-
-// to input fields
-
-import { useState } from "react";
-
-function App() {
-  const [name, setName] = useState("");
-
-  return (
-    <div>
-      <input
-        type="text"
-        value={name}
-        onChange={(event) => setName(event.target.value)}
-        placeholder="Enter your name"
-      />
-
-      <h2>Hello, {name}</h2>
-    </div>
-  );
-}
-
-export default App;
+export default Car;
 
 
-// different types of state
+// different ways of updating state
+// direct update
 
-const [name, setName] = useState("John"); 
-const [age, setAge] = useState(23);
-const [isLoggedIn, setIsLoggedIn] = useState(false);
-const [hobbies, setHobbies] = useState(["Coding", "Gaming"]);
-const [user, setUser] = useState({ name: "John", age: 23 });
+const [speed, setSpeed] = useState(0);
+
+setSpeed(100);
+
