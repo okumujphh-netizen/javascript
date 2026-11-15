@@ -130,3 +130,16 @@ function Car() {
 }
 
 export default Car;
+
+
+// Concept	JavaScript / React tool
+// Request external information	fetch()
+// Wait for a response	async/await
+// Convert JSON	response.json()
+// Store returned data	useState()
+// Fetch on component mount	useEffect()
+// Display multiple records	.map()
+// Search records	.filter()
+// Handle loading	loading state
+// Handle errors	try/catch
+// Cancel requests	AbortController
