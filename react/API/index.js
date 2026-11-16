@@ -140,6 +140,6 @@ export default Car;
 // Fetch on component mount	useEffect()
 // Display multiple records	.map()
 // Search records	.filter()
-// Handle loading	loading state
+// Handle loading	loading state 
 // Handle errors	try/catch
 // Cancel requests	AbortController
